@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/noll"
+            android:layout_width="422dp"
+            android:layout_height="127dp"
+            app:srcCompat="@drawable/gg" />
+
+        <TextView
+            android:id="@+id/txtt"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:text="NOODLES"
+            android:textSize="24sp" />
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="match_parent"
+            android:layout_height="127dp"
+            app:srcCompat="@drawable/pi" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:text="PIZZA"
+            android:textSize="24sp" />
+
+        <ImageButton
+            android:id="@+id/imageButton8"
+            android:layout_width="match_parent"
+            android:layout_height="127dp"
+            app:srcCompat="@drawable/hl" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:text="CAKE"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+</LinearLayout>
